@@ -1,0 +1,27 @@
+Network security groups - https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview
+
+Create, change, or delete a network security group - https://learn.microsoft.com/en-us/azure/virtual-network/manage-network-security-group?tabs=network-security-group-portal
+
+How network security groups filter network traffic - https://learn.microsoft.com/en-us/azure/virtual-network/network-security-group-how-it-works
+
+Tutorial: Filter network traffic with a network security group - https://learn.microsoft.com/en-us/azure/virtual-network/tutorial-filter-network-traffic?tabs=portal
+
+Determining the public IP address of your CloudShell session - https://techcommunity.microsoft.com/blog/itopstalkblog/determining-the-public-ip-address-of-your-cloudshell-session/1085251
+    [curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//']
+
+Application security groups - https://learn.microsoft.com/en-us/azure/virtual-network/application-security-groups
+
+Virtual network flow logs - https://learn.microsoft.com/en-us/azure/network-watcher/vnet-flow-logs-overview?tabs=Americas
+
+Create, change, enable, disable, or delete virtual network flow logs - https://learn.microsoft.com/en-us/azure/network-watcher/vnet-flow-logs-manage?tabs=portal
+
+IP flow verify overview - https://learn.microsoft.com/en-us/azure/network-watcher/ip-flow-verify-overview
+
+Working with NSG access and Azure Bastion - https://learn.microsoft.com/en-us/azure/bastion/bastion-nsg
+
+How to block network traffic with Azure Virtual Network Manager - https://learn.microsoft.com/en-us/azure/virtual-network-manager/how-to-block-network-traffic-portal
+
+Security admin rules in Azure Virtual Network Manager -  https://learn.microsoft.com/en-us/azure/virtual-network-manager/concept-security-admins
+
+Create a security admin rule using network groups in Azure Virtual Network Manager - https://learn.microsoft.com/en-us/azure/virtual-network-manager/how-to-create-security-admin-rule-network-group
+
