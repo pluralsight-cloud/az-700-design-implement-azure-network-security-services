@@ -1,0 +1,22 @@
+What is Azure Firewall? - https://learn.microsoft.com/en-us/azure/firewall/overview
+
+Azure Firewall Manager policy overview - https://learn.microsoft.com/en-us/azure/firewall-manager/policy-overview
+
+Choose the right Azure Firewall version to meet your needs - https://learn.microsoft.com/en-us/azure/firewall/choose-firewall-sku
+
+Azure Firewall Basic features - https://learn.microsoft.com/en-us/azure/firewall/basic-features
+
+Azure Firewall Standard features - https://learn.microsoft.com/en-us/azure/firewall/features
+
+Azure Firewall Premium features - https://learn.microsoft.com/en-us/azure/firewall/premium-features
+
+Deploy and configure Azure Firewall Basic and policy using the Azure portal - https://learn.microsoft.com/en-us/azure/firewall/deploy-firewall-basic-portal-policy
+
+Tutorial: Deploy and configure Azure Firewall and policy using the Azure portal - https://learn.microsoft.com/en-us/azure/firewall/tutorial-firewall-deploy-portal-policy
+
+Azure Firewall Premium in the Azure portal - https://learn.microsoft.com/en-us/azure/firewall/premium-portal 
+
+What is Azure Firewall Manager? - https://learn.microsoft.com/en-us/azure/firewall-manager/overview
+
+Tutorial: Secure your virtual hub using Azure Firewall Manager - https://learn.microsoft.com/en-us/azure/firewall-manager/secure-cloud-network
+
