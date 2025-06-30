@@ -1,0 +1,21 @@
+What is Azure Web Application Firewall? - https://learn.microsoft.com/en-us/azure/web-application-firewall/overview
+
+What is Azure Web Application Firewall on Azure Application Gateway? - https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview
+
+Azure Web Application Firewall and Azure Policy - https://learn.microsoft.com/en-us/azure/web-application-firewall/shared/waf-azure-policy
+
+Tutorial: Create an application gateway with a Web Application Firewall using the Azure portal - https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/application-gateway-web-application-firewall-portal
+
+Create Web Application Firewall policies for Application Gateway - https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/create-waf-policy-ag
+
+Customize Web Application Firewall rules using the Azure portal - https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/application-gateway-customize-waf-rules-portal
+
+Web Application Firewall DRS and CRS rule groups and rules - https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/application-gateway-crs-rulegroups-rules
+
+Associate a WAF policy with an existing Application Gateway - https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/associate-waf-policy-existing-gateway
+
+Tutorial: Create a WAF policy on Azure Front Door by using the Azure portal - https://learn.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-create-portal
+
+Policy settings for Web Application Firewall in Azure Front Door - https://learn.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-policy-settings
+
+Custom rules for Azure Web Application Firewall on Azure Front Door -  https://learn.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-custom-rules
