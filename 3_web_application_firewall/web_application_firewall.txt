@@ -19,3 +19,20 @@ Tutorial: Create a WAF policy on Azure Front Door by using the Azure portal - ht
 Policy settings for Web Application Firewall in Azure Front Door - https://learn.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-policy-settings
 
 Custom rules for Azure Web Application Firewall on Azure Front Door -  https://learn.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-custom-rules
+
+Use Log Analytics to examine Application Gateway Web Application Firewall (WAF) logs - https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/log-analytics
+
+Azure Web Application Firewall monitoring and logging - https://learn.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-monitor?pivots=front-door-standard-premium
+
+Web Application Firewall exclusion lists - https://docs.azure.cn/en-us/web-application-firewall/ag/application-gateway-waf-configuration?tabs=portal
+
+--------------------
+
+Example KQL query:
+
+AzureDiagnostics
+| where ResourceProvider == "MICROSOFT.NETWORK" and Category == "ApplicationGatewayFirewallLog"
+| where TimeGenerated > ago(5m) // This line is added to filter for the last 5 minutes
+| project TimeOfDay = format_datetime(TimeGenerated, 'HH:mm:ss'), Message, ruleId_s, ruleGroup_s, details_message_s, action_s, transactionId_g, details_data_s
+| sort by TimeOfDay desc
+| limit 100
